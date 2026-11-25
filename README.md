@@ -6,12 +6,12 @@ adminPrivsElevationScript.zsh
 
 ### Author
 Arun Patwardhan
-(arun@amaranthine.co.in)[mailto://arun@amaranthine.co.in]
+arun@amaranthine.co.in
 
 ## LEGAL DISCLAIMER 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## DESCRIPTION ------------------------------------------------------------------------------------- 
+## DESCRIPTION
 - This script is intended for elevating the privieges for a user to **admin** for a limited period. 
 - Any user should be able to run this script.
 - This script can run on all computers.
@@ -22,32 +22,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
    + 15 minutes
    + 20 minutes
 
-## USAGE -------------------------------------------------------------------------------------------
+## USAGE 
 - Run the command:
   ```shell
   ./adminPrivsElevationScript.zsh
   ```
+_* This script is intended for use via an MDM. *_
 
-
-## WARNING/CAUTION ---------------------------------------------------------------------------------
+## WARNING/CAUTION 
 - This script doesn't perform any validation. 
-- If the script does not see the -h or the -help options then it will proceed with its intended action.
 - The script must be run with sudo privileges.
 - Please test the script before deploying
 
-## INSTALLATION ------------------------------------------------------------------------------------
+## INSTALLATION 
 ### Instructions for placing the script in the correct place are listed here. 
 Location:		`/Library/Scripts/`
 Permissions:	`rwx r-x r-x`
 
-## REQUIREMENTS ------------------------------------------------------------------------------------
+## REQUIREMENTS 
 Shell:		    `/bin/zsh`
 OS:			      macOS Golden Gate 27.0.1 or later
 Dependencies:	None
-#-------------------------------------------------------------------------------------------------
 
-## HELP/SUPPORT ------------------------------------------------------------------------------------
+## TROUBLESHOOTING 
 You can also view the log file for the same at: /Library/Logs/adminPrivelegesElevationScript_events.log
 
-# #HISTORY -----------------------------------------------------------------------------------------
+# #HISTORY 
 Version 1.0: Basic script which elevates privileges
