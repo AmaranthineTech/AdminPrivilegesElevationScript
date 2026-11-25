@@ -37,15 +37,18 @@ _* This script is intended for use via an MDM. *_
 ## INSTALLATION 
 ### Instructions for placing the script in the correct place are listed here. 
 Location:		`/Library/Scripts/`
+
 Permissions:	`rwx r-x r-x`
 
 ## REQUIREMENTS 
 Shell:		    `/bin/zsh`
+
 OS:			      macOS Golden Gate 27.0.1 or later
+
 Dependencies:	None
 
 ## TROUBLESHOOTING 
 You can also view the log file for the same at: /Library/Logs/adminPrivelegesElevationScript_events.log
 
-# #HISTORY 
+## HISTORY 
 Version 1.0: Basic script which elevates privileges
